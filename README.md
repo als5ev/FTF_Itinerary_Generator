@@ -7,6 +7,7 @@ The GUI is made through pyQt5.
 ## Setup
 
 ### Executable
+
 1 . Download the executable ```main.exe```
 
 2. Run on your device 
