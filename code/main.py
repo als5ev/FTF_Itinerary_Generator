@@ -65,9 +65,9 @@ class Example(QWidget):
     def clearOptimizedPanel(self):
         self.optimized_output.setText("")
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = Example()
-    sys.exit(app.exec_())
+
+app = QApplication(sys.argv)
+ex = Example()
+sys.exit(app.exec_())
 
 
