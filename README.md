@@ -6,11 +6,11 @@ The GUI is made through pyQt5.
 
 ## Setup
 
-### Executable
+#### Executable
 1. Download the executable ```main.exe```
 2. Run on your device 
 
-### Manual
+#### Manual
 1. Download the **code** folder
 2. Place the folder where you want it in the future
 3. Install dependencies (geopy / pyQt)
