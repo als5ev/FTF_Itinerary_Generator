@@ -7,7 +7,8 @@ The GUI is made through pyQt5.
 ## Setup
 1. Download the **code** folder
 2. Place the folder where you want it in the future
-3. Run main.py
+3. Install dependencies (geopy / pyQt)
+4. Run main.py
 
 **Note: Executable on the way.**
 
