@@ -5,12 +5,16 @@ Works through geolocating latitude/longitude from addresses using geopy, then ap
 The GUI is made through pyQt5.
 
 ## Setup
+
+### Executable
+1 . Download the executable ```main.exe```
+2. Run on your device 
+
+### Manual
 1. Download the **code** folder
 2. Place the folder where you want it in the future
 3. Install dependencies (geopy / pyQt)
 4. Run main.py
-
-**Note: Executable on the way.**
 
 ## Usage(GUI)
 Once you have run main.py,a window will pop up. You will then be able to type in a comma separated sequence of valid addresses.
