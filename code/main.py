@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit,
 from parse_file import get_itinerary
 
 
-class Example(QWidget):
+class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("FTF Itinerary Generator")
@@ -67,7 +67,7 @@ class Example(QWidget):
 
 
 app = QApplication(sys.argv)
-ex = Example()
+mw = MainWindow()
 sys.exit(app.exec_())
 
 
