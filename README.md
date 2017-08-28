@@ -17,7 +17,7 @@ The GUI is made through pyQt5.
 4. Run main.py
 
 ## Usage(GUI)
-Once you have run main.py,a window will pop up. You will then be able to type in a comma separated sequence of valid addresses.
+Once you have run main.py, a window will pop up. You will then be able to type in a comma separated sequence of valid addresses.
 As long as the addresses are comma separated, you should get an output. Addresses are very forgiving.
 
 ![Alt text](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/img/Demo.png?raw=true "GUI Screenshot")
