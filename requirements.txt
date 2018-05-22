@@ -1,0 +1,4 @@
+geographiclib==1.49
+geopy==1.14.0
+PyQt5==5.10.1
+sip==4.19.8
