@@ -22,4 +22,4 @@ As long as the addresses are comma separated, you should get an output. Addresse
 ![Alt text](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/img/Demo.png?raw=true "GUI Screenshot")
 
 ## Usage(Development)
-The main functionality of this application is provided by the [get_itinerary()](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/code/parse_file.py#L63) function.
+The main functionality of this application is provided by the [get_itinerary()](https://github.com/and-rewsmith/FTF_Itinerary_Generator/blob/master/src/parse_file.py#L63) function.
