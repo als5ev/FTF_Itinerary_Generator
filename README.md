@@ -22,24 +22,4 @@ As long as the addresses are comma separated, you should get an output. Addresse
 ![Alt text](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/img/Demo.png?raw=true "GUI Screenshot")
 
 ## Usage(Development)
-The main functionality of this application is provided by the [get_itinerary()](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/code/parse_file.py#L63) function:
-
-```
-get_itinerary(addresses):
-    print(addresses)
-    if len(addresses) == 1 and addresses[0] == "":
-        return []
-
-    D, vertices = construct_matrix(addresses)
-
-    path = solve_tsp(D, optim_steps=10)
-
-    ordered_addresses = []
-    for entry in path:
-        ordered_addresses.append(vertices[entry].geoloc.address)
-
-    return ordered_addresses
-```
-
-Similar to the application, the addresses parameter is a comma separated string of valid addresses.
-
+The main functionality of this application is provided by the [get_itinerary()](https://github.com/als5ev/FTF_Itinerary_Generator/blob/master/code/parse_file.py#L63) function.
